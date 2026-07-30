@@ -1,0 +1,23 @@
+base_url = "https://example.com"
+title = "Institute"
+theme = "academic-workshop"
+compile_sass = true
+build_search_index = false
+generate_feeds = false
+minify_html = true
+
+[markdown]
+bottom_footnotes = true
+highlighting.light_theme = "github-light"
+highlighting.dark_theme = "github-dark"
+smart_punctuation = true
+
+[extra]
+footer_text = "This website is built using [Zola](https://www.getzola.org) and the [Academic Workshop](http://github.com/aterenin/academic-workshop/) theme."
+title = {tagline = "Welcome to", title = "Institute", subtitles = ["Workshop and seminar information"]}
+banner = {extension = "svg", size = "fixed", fade = true}
+buttons = [{name = "Home", url = "/"}, {name = "GitHub", url = "https://github.com"}]
+image = {resize = 400, ext = ".jpg"}
+list_page_limit = 10
+header_pages = [{name = "Home", url = "/#home"}, {name = "Seminars", url = "/seminars"}]
+button_shortcuts = [{variable = "video", name = "Video"}]
