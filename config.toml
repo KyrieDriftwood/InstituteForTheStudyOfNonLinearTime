@@ -1,4 +1,4 @@
-base_url = "https://example.com"
+base_url = "https://kyriedriftwood.github.io/InstituteForTheStudyOfNonLinearTime"
 title = "Institute"
 theme = "academic-workshop"
 compile_sass = true
@@ -16,7 +16,7 @@ smart_punctuation = true
 footer_text = "This website is built using [Zola](https://www.getzola.org) and the [Academic Workshop](http://github.com/aterenin/academic-workshop/) theme."
 title = {tagline = "Welcome to", title = "Institute", subtitles = ["Workshop and seminar information"]}
 banner = {extension = "svg", size = "fixed", fade = true}
-buttons = [{name = "Home", url = "/"}, {name = "GitHub", url = "https://github.com"}]
+buttons = [{name = "Home", url = "https://kyriedriftwood.github.io/InstituteForTheStudyOfNonLinearTime"}, {name = "GitHub", url = "https://github.com/KyrieDriftwood/InstituteForTheStudyOfNonLinearTime"}]
 image = {resize = 400, ext = ".jpg"}
 list_page_limit = 10
 header_pages = [{name = "Home", url = "/#home"}, {name = "Seminars", url = "/seminars"}]
