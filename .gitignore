@@ -1,0 +1,6 @@
+# Zola build output
+/public/
+
+# Optional local caches
+/.sass-cache/
+/.zola-lock
